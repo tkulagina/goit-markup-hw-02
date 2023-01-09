@@ -64,19 +64,31 @@
 }
 
 .button {
+    font-family: 'Roboto', sans-serif;
+    Font style: 700;
+    Font size: 16px;
+    Line height: 1.88;
+    Line height: 160%;
+    Align: Center;
+    Vertical align: Center;
+    Letter spacing: 6%;
 
+    color: #FFFFFF;
+    background-color: #2196F3;
+
+    cursor: pointer;
 }
 
 .section-name {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+    Font size: 36px;
+    Line height: 1.17;
+    Line height: 100%;
+    Align: Center;
+    Vertical align: Top;
+    Letter spacing: 3%;
 
     color: #212121;
 }
@@ -84,11 +96,36 @@
 .subtitle {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    Font size: 14px;
+    Line height: 1.14;
+    Align: Left;
+    Vertical align: Top;
+    Letter spacing: 3%;
 
     color: #212121;
 }
 
+.subtitle-team {
+    font-family: 'Roboto', sans-serif;
+    Font style: 500;
+    Font size: 16px;
+    Line height: 1.19;
+    Line height: 100%;
+    Align: Center;
+    Vertical align: Top;
+    Letter spacing: 3%;
+
+    color: #212121;
+}
+
+.team-title {
+    font-family: 'Roboto', sans-serif;
+    Font style: 400;
+    Font size: 16px;
+    Line height: 1.19;
+    Line height: 100%;
+    Align: Center;
+    Vertical align: Top;
+    Letter spacing: 3%;
+}
