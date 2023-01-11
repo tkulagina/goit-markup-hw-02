@@ -7,6 +7,7 @@
     --title-color: #212121;
     --main-background-color: #F5F5F5;
     --second-background-color: #F5F4FA;
+    --active-button-color: #188CE8;
     --main-font-family: 'Roboto', sans-serif;
     --logo-font-family: 'Raleway', sans-serif;
 }
@@ -81,6 +82,11 @@
 
     color: var(--third-brand-color);
     background-color: var(--brand-color); 
+}
+
+.button :hover,
+.button :focus {
+    color: var(--active-button-color);
 }
  /*====end hero====*/
 
