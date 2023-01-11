@@ -23,7 +23,8 @@
     font-family: var(--main-font-family);
 
     color: var(--text-color);
-}
+    background-color: var(--main-background-color);
+    }
 /*====start header====*/
 .logo {
     font-family: var(--logo-font-family);
@@ -144,28 +145,69 @@
     Vertical align: Top;
     Letter spacing: 3%;
 
-    color: #212121;
+    color: var(--title-color);
 }
+/*====end section 3====*/
+
+/*====start section 4====*/
+.section-style{
+    background-color: var(--second-background-color) ;
+}
+
+.photo-style {
+    background-color: var(--third-brand-color);
+}
+
 .subtitle-team {
-    font-family: 'Roboto', sans-serif;
     Font style: 500;
     Font size: 16px;
     Line height: 1.19;
-    Line height: 100%;
     Align: Center;
     Vertical align: Top;
     Letter spacing: 3%;
 
-    color: #212121;
+    color: var(--title-color);
 }
 
 .team-title {
-    font-family: 'Roboto', sans-serif;
     Font style: 400;
     Font size: 16px;
     Line height: 1.19;
-    Line height: 100%;
     Align: Center;
     Vertical align: Top;
     Letter spacing: 3%;
+
+    color: var(--text-color);
 }
+/*====end section 4====*/
+
+/*====start footer====*/
+.footer-style {
+    text-decoration: none;
+    background-color: var(--footer-color);
+}
+
+.third-logo-color {
+    color: var(--third-brand-color);
+}
+
+.address-style {
+    Font style: 400;
+    Font size: 14px;
+    Line height: 1.71;
+    Align: Left;
+    Vertical align: Top;
+    Letter spacing: 3%;
+
+    color: var(--third-brand-color);
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--brand-color);
+}
+/*====end footer====*/
