@@ -110,8 +110,6 @@
     Font style: 400;
     Font size: 14px;
     Line height: 1.71;
-   
-    color: var(-text-color);
 }
 /*====end section 2====*/
 
@@ -146,8 +144,6 @@
     Font style: 400;
     Font size: 16px;
     Line height: 1.19;
-   
-    color: var(--text-color);
 }
 /*====end section 4====*/
 
@@ -212,7 +208,5 @@
     Font style: 400;
     Font size: 16px;
     Line height: 1.88;
-   
-    color: var(--text-color);
 }
 /*====end section portfolio====*/
