@@ -2,9 +2,13 @@
     --brand-color: #2196F3;
     --secondary-brand-color: #000000;
     --third-brand-color: #FFFFFF;
+    --footer-color: #2F303A;
     --text-color: #757575;
     --title-color: #212121;
+    --main-background-color: #F5F5F5;
+    --second-background-color: #F5F4FA;
     --main-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
 }
 
 .link {
@@ -16,12 +20,13 @@
 }
 
 .body {
-    font-family: var (--main-font-family);
+    font-family: var(--main-font-family);
+
     color: var(--text-color);
 }
 /*====start header====*/
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--logo-font-family);
     Font style: 700;
     Font size: 26px;
     Line height: 1.19;
@@ -34,7 +39,7 @@
 }
 
 .secondary-logo-color{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--logo-font-family);
     Font style: 700;
     Font size: 26px;
     Line height: 1.19;
@@ -46,25 +51,27 @@
     color: var(--secondary-brand-color); 
 }
 
-.menu,
-.connect {
+.menu a,
+.connect a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color: var(--title-color);
 }
 
 .menu :hover,
 .menu :focus,
 .connect :hover,
 .connect :focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
+/*====end header====*/
+
+/*====start hero====*/
 .hero {
-   
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -72,12 +79,12 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
-    background-color: #2F303A;  
+    color: var(--third-brand-color);
+    background-color: var(--footer-color);  
 }
 
 .button {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     Font style: 700;
     Font size: 16px;
     Line height: 1.88;
@@ -87,12 +94,14 @@
     Letter spacing: 6%;
     cursor: pointer;
 
-    color: #FFFFFF;
-    background-color: #2196F3; 
+    color: var(--third-brand-color);
+    background-color: var(--brand-color); 
 }
+ /*====end hero====*/
 
+ /*====start section 2====*/
 .visually-hidden {
-    position: absolute;
+     position: absolute;
      white-space: nowrap;
      width: 1px;
      height: 1px;
@@ -104,8 +113,29 @@
      margin: -1px;
    }
 
+.subtitle {
+    font-weight: 700;
+    Font size: 14px;
+    Line height: 1.14;
+    Align: Left;
+    Vertical align: Top;
+    Letter spacing: 3%;
+
+    color: var(--title-color);
+}
+
+.text-particulars {
+    Font style: 400;
+    Font size: 14px;
+    Line height: 1.71;
+    Align: Left;
+    Vertical align: Top;
+    Letter spacing: 3%;
+}
+/*====end section 2====*/
+
+/*====start section 3====*/
 .section-name {
-    /*font-family: 'Roboto', sans-serif;*/
     font-weight: 700;
     Font size: 36px;
     Line height: 1.17;
@@ -116,19 +146,6 @@
 
     color: #212121;
 }
-
-.subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    Font size: 14px;
-    Line height: 1.14;
-    Align: Left;
-    Vertical align: Top;
-    Letter spacing: 3%;
-
-    color: #212121;
-}
-
 .subtitle-team {
     font-family: 'Roboto', sans-serif;
     Font style: 500;
