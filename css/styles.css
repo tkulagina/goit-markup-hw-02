@@ -1,3 +1,12 @@
+:root {
+    --brand-color: #2196F3;
+    --secondary-brand-color: #000000;
+    --third-brand-color: #FFFFFF;
+    --text-color: #757575;
+    --title-color: #212121;
+    --main-font-family: 'Roboto', sans-serif;
+}
+
 .link {
     text-decoration: none;
 }
@@ -7,16 +16,10 @@
 }
 
 .body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    color: #757575;
+    font-family: var (--main-font-family);
+    color: var(--text-color);
 }
-
+/*====start header====*/
 .logo {
     font-family: 'Raleway', sans-serif;
     Font style: 700;
@@ -27,13 +30,24 @@
     Vertical align: Top;
     Letter spacing: 3%;
 
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
-.menu a,
-.connect a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+.secondary-logo-color{
+    font-family: 'Raleway', sans-serif;
+    Font style: 700;
+    Font size: 26px;
+    Line height: 1.19;
+    Line height: 100%;
+    Align: Left;
+    Vertical align: Top;
+    Letter spacing: 3%;
+
+    color: var(--secondary-brand-color); 
+}
+
+.menu,
+.connect {
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -50,8 +64,7 @@
 }
 
 .hero {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+   
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -72,16 +85,27 @@
     Align: Center;
     Vertical align: Center;
     Letter spacing: 6%;
+    cursor: pointer;
 
     color: #FFFFFF;
-    background-color: #2196F3;
-
-    cursor: pointer;
+    background-color: #2196F3; 
 }
 
+.visually-hidden {
+    position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+   }
+
 .section-name {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    /*font-family: 'Roboto', sans-serif;*/
     font-weight: 700;
     Font size: 36px;
     Line height: 1.17;
@@ -95,7 +119,6 @@
 
 .subtitle {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 700;
     Font size: 14px;
     Line height: 1.14;
