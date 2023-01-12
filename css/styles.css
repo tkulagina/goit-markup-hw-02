@@ -16,8 +16,7 @@
     font-family: var(--main-font-family);
     
     color: var(--text-color);
-    background-color: var(--main-background-color);
-    }
+}
 
 .link {
     text-decoration: none;
@@ -29,11 +28,10 @@
 /*====start header====*/
 .logo {
     font-family: var(--logo-font-family);
-    Font style: 700;
-    Font size: 26px;
-    Line height: 1.19;
-    Line height: 100%;
-   
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+           
     color: var(--brand-color);
 }
 
@@ -41,42 +39,53 @@
     color: var(--secondary-brand-color); 
 }
 
-.menu a,
-.connect a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
-    
-    color: var(--title-color);
-}
-
-.menu :hover,
-.menu :focus,
-.connect :hover,
-.connect :focus {
+.menu .link.current {
     color: var(--brand-color);
 }
 
+.menu a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    
+    color: var(--title-color);
+}
+.connect a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    color: var(--text-color);
+}
+
+.menu a:hover,
+.menu a:focus,
+.connect a:hover,
+.connect a:focus {
+    color: var(--brand-color);
+}
 /*====end header====*/
 
 /*====start hero====*/
+.hero-style {
+    background-color: var(--footer-color);
+}
+
 .hero {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: var(--third-brand-color);
-    background-color: var(--footer-color);  
+    color: var(--third-brand-color); 
 }
 
 .button {
     font-family: inherit;
-    Font style: 700;
-    Font size: 16px;
-    Line height: 1.88;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
       
     cursor: pointer;
 
@@ -106,24 +115,25 @@
 
 .subtitle {
     font-weight: 700;
-    Font size: 14px;
-    Line height: 1.14;
+    font-size: 14px;
+    line-height: 1.14;
     
     color: var(--title-color);
 }
 
 .text-particulars {
-    Font style: 400;
-    Font size: 14px;
-    Line height: 1.71;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 /*====end section 2====*/
 
 /*====start section 3====*/
 .section-name {
     font-weight: 700;
-    Font size: 36px;
-    Line height: 1.17;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
        
     color: var(--title-color);
 }
@@ -139,17 +149,17 @@
 }
 
 .subtitle-team {
-    Font style: 500;
-    Font size: 16px;
-    Line height: 1.19;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
     
     color: var(--title-color);
 }
 
 .team-title {
-    Font style: 400;
-    Font size: 16px;
-    Line height: 1.19;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
 }
 /*====end section 4====*/
 
@@ -162,14 +172,14 @@
     color: var(--third-brand-color);
 }
 
-.address-style.address {
-    text-decoration: none;
+address {
+    font-style: normal;
 }
 
 .address-style {
-    Font style: 400;
-    Font size: 14px;
-    Line height: 1.71;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
        
     color: var(--third-brand-color);
 }
@@ -187,9 +197,9 @@
 /*====start section portfolio====*/
 .button-portfolio {
     font-family: inherit;
-    Font style: 500;
-    Font size: 16px;
-    Line height: 1.63;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
    
     cursor: pointer;
 
@@ -203,16 +213,16 @@
 }
 
 .subtitle-photo {
-    Font style: 700;
-    Font size: 18px;
-    Line height: 2;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
    
     color: var(--title-color);
 }
 
 .text-photo {
-    Font style: 400;
-    Font size: 16px;
-    Line height: 1.88;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
 }
 /*====end section portfolio====*/
