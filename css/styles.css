@@ -204,6 +204,7 @@ address {
     cursor: pointer;
 
     color: var(--title-color);
+    background-color: var(--second-background-color);
 }
 
 .button-portfolio:hover,
@@ -224,5 +225,7 @@ address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    
+    color: var(--text-color);
 }
 /*====end section portfolio====*/
